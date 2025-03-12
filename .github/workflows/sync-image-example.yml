@@ -27,4 +27,4 @@
 
         - name: Use Skopeo Tools Sync Image to Docker Hub
           run: |
-            skopeo copy docker://docker.io/thousmile/go_emqx_exhook:1.8  docker://registry.cn-hangzhou.aliyuncs.com/dkims/go_emqx_exhook:1.8
+            skopeo copy docker://docker.getcollate.io/openmetadata/db:1.6.5  docker://registry.cn-hangzhou.aliyuncs.com/dkims/openmetadata/db:1.6.5
